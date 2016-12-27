@@ -8,8 +8,8 @@
   },
   "keywords": [
    "sample",
-   "uniq",
- ]
+   "uniq"
+ ],
   "dependencies": {
     "uniq": "*"
   }
