@@ -2,6 +2,14 @@
   "name": "sample",
   "version": "0.0.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AshutoshKumar/Sample.git"
+  },
+  "keywords": [
+   "sample",
+   "uniq",
+ ]
   "dependencies": {
     "uniq": "*"
   }
