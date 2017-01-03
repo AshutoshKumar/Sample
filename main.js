@@ -9,7 +9,7 @@
 
 var fetch = require('isomorphic-fetch');
 
-fetch('//offline-news-api.herokuapp.com/stories')
+fetch('http://offline-news-api.herokuapp.com/stories')
     .then(function(response) {
         if (response.status >= 400) {
             throw new Error("Bad response from server");
@@ -17,5 +17,5 @@ fetch('//offline-news-api.herokuapp.com/stories')
         return response.json();
     })
     .then(function(stories) {
-        console.log(stories);
+        console.log(JSON.stringify(stories));
     });
