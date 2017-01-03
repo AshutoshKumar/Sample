@@ -13,7 +13,8 @@
  ],
   "dependencies": {
     "uniq": "*",
-    "jquery":"*"
+    "jquery":"*",
+    "isomorphic-fetch":"*"
   },
   "homepage": "https://github.com/AshutoshKumar/Sample",
  "testling": {
